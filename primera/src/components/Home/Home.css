@@ -2,6 +2,7 @@
   height: 316px;
   width: 316px;
 }
-.fondo {
-  background-image: url(../../../public/teinda.jpg);
+
+.banner {
+  max-width: 100%;
 }

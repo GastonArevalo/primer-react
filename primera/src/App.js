@@ -3,6 +3,7 @@ import "./App.css";
 
 import Navbar from "./components/Navbar/navbar";
 import Home from "./components/Home/Home";
+import Footer from "./components/footer/footer";
 // import Form from "./components/Formulario/Form";
 
 class App extends Component {
@@ -29,9 +30,10 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="fondo">
         <Navbar />
         <Home />
+        <Footer />
       </div>
     );
   }

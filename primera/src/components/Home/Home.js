@@ -43,7 +43,7 @@ class Home extends Component {
       return <div>Loading...</div>;
     } else {
       return (
-        <div className="fondo">
+        <div className="">
           <div className="container ">
             <div className="row fondo">
               {items.map((item) => (
@@ -69,6 +69,13 @@ class Home extends Component {
                 </div>
               ))}
             </div>
+          </div>
+          <div className="container">
+            <img
+              className="banner"
+              src={process.env.PUBLIC_URL + "banner.png"}
+              alt="banner"
+            ></img>
           </div>
         </div>
       );

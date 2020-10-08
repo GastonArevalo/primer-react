@@ -26,3 +26,7 @@
     transform: rotate(360deg);
   }
 }
+
+.fondo {
+  background-image: url(../public/tienda.jpg);
+}

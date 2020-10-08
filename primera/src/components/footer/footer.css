@@ -1,0 +1,12 @@
+.main {
+  flex: 1;
+}
+
+.footer {
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 300px;
+}
+.txt-footer {
+}

@@ -4,7 +4,7 @@ import "./navbar.css";
 class Navbar extends Component {
   render() {
     return (
-      <div className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="navbar container navbar-expand-lg navbar-dark bg-nav font">
         <div className="container">
           <a className="navbar-brand" href="#">
             CUOS
@@ -31,36 +31,6 @@ class Navbar extends Component {
               <li className="nav-item">
                 <a className="nav-link" href="#">
                   Link
-                </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                  <div className="dropdown-divider"></div>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </div>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled" href="#">
-                  Disabled
                 </a>
               </li>
             </ul>
